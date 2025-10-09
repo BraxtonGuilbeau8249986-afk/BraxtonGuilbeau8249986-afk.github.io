@@ -31,10 +31,14 @@ toggleGrid();
 
     // TODO 2 - Create Platforms
 createPlatform(500, 625, 100,10);
-createPlatform(600,525,10,200);
-createPlatform(100,510 ,1 ,1);
-createPlatform(1000, 550, 100, 10);
+createPlatform(600,525,10,220);
+createPlatform(1000,480,1,1);
+createPlatform(1000, 550, 200, 10);
 createPlatform(700, 625,50,10);
+createPlatform(220, 450,110,10);
+createPlatform(580, 350,100,10);
+createPlatform(1100,200,100,10);
+createPlatform(900, 300,1,1);
     // TODO 3 - Create Collectables
 
 
