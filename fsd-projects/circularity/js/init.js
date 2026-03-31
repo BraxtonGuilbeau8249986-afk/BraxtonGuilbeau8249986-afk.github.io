@@ -43,7 +43,15 @@ var circles = []
         }
 
         // TODO 3 : Call the drawCircle() function
+  drawCircle()
 
+drawCircle()
+
+drawCircle()
+
+drawCircle()
+
+drawCircle()
         // TODO 7 : Use a loop to create multiple circles
 
 
@@ -113,7 +121,19 @@ game.checkCirclePosition(circles[ 4 ])
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-          
+          else if (circle.x < 0) {
+
+                circle.x = canvas.width;
+
+            } else if (circle.y > canvas.height) {
+
+                circle.y = 0;
+
+            } else if (circle.y < 0) {
+
+                circle.y = canvas.height;
+
+            }
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
         
